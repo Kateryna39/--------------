@@ -7,39 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
-      <span>
-        <img src="./bg.jpg" alt="blue laptop with coins" width="2100px" height="2330px" class="header-bg">
+  <div class="page-container">
+    <div class="logo-container">
+       <img src="./bg.jpg" alt="blue laptop with coins" class="header-bg">
        <img src="./logo.svg" alt="company logo" class="header-logo">
-      </span>
-    </header>
-    <main>
-    <span class="h1p">
-    <h1 class="right-text">Get iintoo it today</h1>
-    <p>There is no charge or obligation upon registration.</p>
-    </span>
-    <a href="https://facebook.com" target="_blank">
-      <button class="button-facebook">
+    </div>
+    <div class="main-info">
+      <h1 class="right-text">Get iintoo it today</h1>
+      <p>There is no charge or obligation upon registration.</p>
+       <div class="button-container">
+       <button class="button-facebook">
         <img src=".//facebook.svg" alt="facebook button" class="registration-fb" > 
-        Register with Facebook
+        <span class="registration1"> Register with Facebook</span>
       </button>
-    </a>
-    <a href="https://www.linkedin.com" target="_blank">
       <button class="button-linkedin">
         <img src=".//linkedin.svg" alt=" linked in button" class="registration-lin"> 
-        Register with Linkedin    
-       </button>
-    </a>    
-   <span class="or">
-    <span class="line"></span>
-    <span>OR</span>
-    <span class="line"></span>
-   </span>
+       <span class="registration2"> Register with Linkedin</span>  
+       </button> 
+        </div>
+       <div class="or">OR</div>
   <form class="registration-form">
-    <input type="email" placeholder="Email">
-    <input type="phone" placeholder="Phone">
+    <input class="email" type="email" placeholder="Email">
+    <input class="phone" type="phone" placeholder="Phone">
   </form>
-  </main>
+  <div class="type">
+  <h2>What type of investor are you?</h2>
+  <div class="choise">Select the type of investor you are below</div>
+  <section class="investor-types">
+    <label>
+        <input type="radio" name="investor" value="individual" checked>
+        Individual
+    </label>
+    <label>
+        <input type="radio" name="investor" value="business">
+        Business
+    </label>
+    <label>
+        <input type="radio" name="investor" value="ira">
+        IRA
+    </label>
+    <label>
+        <input type="radio" name="investor" value="trust">
+        Trust
+    </label>
+</section>
+  </div>
+</div>
+  </div>
+    
 </body>
 
 </html>

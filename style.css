@@ -4,91 +4,160 @@ body {
     background-color: #EFF6FF;
     font-family:"barlow", sans-serif;
     font-weight: 100;
+    font-size: 16px;
 }
-.site-header {
-    position: relative;
-    display: inline-block;
-    width: 100;
+.page-container {
+    display: flex;
+    
 }
-.header-br {
+.logo-container {
+ position: relative;
+     width: 50%;
+
+}
+.main-info {
+    padding-left: 39px;
+    padding-top: 50px;
+    padding-right: 39px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+.header-bg {
+    width: 100%;
     height: auto;
-    display: block;
-    z-index: 1;
 }
 .header-logo {
     position: absolute;
-    top: 5px;
-    left: 170px;
-    width: 310px;
-    height: 310px;
-    z-index: 9999;
+    left: 50px;
+    top: 50px;
+    width: 120px;
 }
 .right-text {
-   font-weight: 500;
-   font-size: 80px;
-   position: absolute;
-   top: 260px;
-   left: 2300px;
-   color: #7B8A92
-   
+    color: #2A4A5C;
+    height: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: right 30px;;
+
 }
 p {
-   font-size: 50px;
-   position:absolute;
-   top: 400px;
-   left: 2300px;
-   color: #96A5B1;
-   font-weight: 400;
+    color: #7b8a92;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
-.button-facebook {
-   position:absolute;
-}
-.button-facebook {
-    height: 100px;
-    width: 600px;
-    top: 700 px;
-    font-size: 35px;
-    margin-top: 700px;
-    margin-left: 200px;
-    padding: 40;
+.button-container {
+    display: flex;
+    gap: 30px;
+    
+    
 
 }
-.registration-fb {
-height: 50px; 
-position: absolute;
-left: 20px;
-top: 23px;
-}
-.button-facebook {
-    background-color: #255A9B;
-    color: white;
-    border: none;
-    border-radius: 4px;
+.registration-fb, .registration-lin {
+    width: 15px;
+    height: 15px;
+    padding-top: 7px;
 
-}
-.button-linkedin {
-    position:absolute;
-    height: 100px;
-    width: 600px;
-    top: 700 px;
-    font-size: 35px;
-    margin-top: 700px;
-    margin-left: 900px;
-    padding: 40;
-    background-color: #0076B6;
-    color: white;
-    border: none;
-    border-radius: 4px;
-}
-.registration-lin {
-    height: 50px; 
-    position: absolute;
-    left: 40px;
-    top: 23px;
 }
 .or {
-    left: 2590px;
-    top: 810px;
-    position: absolute;
-    height: 250px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 30px;
+    padding-right: 95px;
+    
+}
+.or::before {
+    content: "";
+    background-color: #7b8a92;
+    width: 90px;
+    height: 1px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.or::after {
+    content: "";
+    background-color: #7b8a92;
+    width: 90px;
+    height: 1px;
+    margin-left: 10px;
+}
+.button-facebook {
+    display: flex;
+    border: none;
+    border-radius: 2px;
+    background-color: #255A9B;
+    height: 30px;
+    width: 190px;
+
+}
+.registration1 {
+   font-size: 12px;
+   padding-left: 13px;
+   padding-top: 7px;
+   color: #FFFFFF;
+}
+.button-linkedin {
+    display: flex;
+    border: none;
+    border-radius: 2px;
+    background-color: #0076B6;
+    height: 30px;
+    width: 190px;
+}
+.registration2 {
+    font-size: 12px;
+    padding-left: 13px;
+    padding-top: 8px;
+    color: #FFFFFF;
+}
+.registration-form {
+    display: flex;
+    gap: 30px;
+}
+.email, .phone {
+    width: 180px;
+    height: 23px;
+    padding-top: 7px;
+    margin-top: 30px;
+    background-color:  #EFF6FF;
+    border-color: #EEEEEE;
+    border: 1px;
+
+}
+.type {
+  
+}
+h2 {
+    color: #2A4A5C;
+    height: 40px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom:2px;
+    padding: right 30px;;
+
+
+}
+.choise {
+    color: #7b8a92;
+    font-weight: 400;
+    margin-top:2px;
+
+}
+.investor-types {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+
+}
+.investor-types label {
+    font-size: 15px;
+    color: #2A4A5C;
+    
+}
+.investor-types input {
+    border-color: #0076B6;
+    background-color: #EEEEEE;
 }
