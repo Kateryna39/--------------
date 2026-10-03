@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #EFF6FF;
+    font-family:"barlow", sans-serif;
+    font-weight: 100;
+}
+.site-header {
+    position: relative;
+    display: inline-block;
+    width: 100;
+}
+.header-br {
+    height: auto;
+    display: block;
+    z-index: 1;
+}
+.header-logo {
+    position: absolute;
+    top: 5px;
+    left: 170px;
+    width: 310px;
+    height: 310px;
+    z-index: 9999;
+}
+.right-text {
+   font-weight: 500;
+   font-size: 80px;
+   position: absolute;
+   top: 260px;
+   left: 2300px;
+   color: #7B8A92
+   
+}
+p {
+   font-size: 50px;
+   position:absolute;
+   top: 400px;
+   left: 2300px;
+   color: #96A5B1;
+   font-weight: 400;
+}
+.button-facebook {
+   position:absolute;
+}
+.button-facebook {
+    height: 100px;
+    width: 600px;
+    top: 700 px;
+    font-size: 35px;
+    margin-top: 700px;
+    margin-left: 200px;
+    padding: 40;
+
+}
+.registration-fb {
+height: 50px; 
+position: absolute;
+left: 20px;
+top: 23px;
+}
+.button-facebook {
+    background-color: #255A9B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+.button-linkedin {
+    position:absolute;
+    height: 100px;
+    width: 600px;
+    top: 700 px;
+    font-size: 35px;
+    margin-top: 700px;
+    margin-left: 900px;
+    padding: 40;
+    background-color: #0076B6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.registration-lin {
+    height: 50px; 
+    position: absolute;
+    left: 40px;
+    top: 23px;
+}
+.or {
+    left: 2590px;
+    top: 810px;
+    position: absolute;
+    height: 250px;
+}
