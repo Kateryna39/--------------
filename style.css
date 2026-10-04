@@ -132,9 +132,6 @@ p {
     border: 1px;
 
 }
-.type {
-  
-}
 h2 {
     color: #2A4A5C;
     height: 40px;
@@ -190,12 +187,10 @@ h2 {
 }
 input[type="radio"] {
     appearance: none;
-
     width: 14px;
     height: 14px;
-    border: 2px solid #7b8a92;
+    border: 2px solid #abbac2;
     border-radius: 50%;
-    cursor: pointer;
 }
 input[type="radio"]:checked {
     border: 3px solid #3f8be7;
