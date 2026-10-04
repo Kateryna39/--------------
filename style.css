@@ -11,12 +11,13 @@ body {
     
 }
 .logo-container {
- position: relative;
+    position: relative;
      width: 50%;
+    flex-shrink: 0
 
 }
 .main-info {
-    padding-left: 39px;
+    padding-left: 70px;
     padding-top: 50px;
     padding-right: 39px;
     padding-bottom: 50px;
@@ -45,6 +46,7 @@ p {
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 50px;
+    font-size: 18px;
 }
 .button-container {
     display: flex;
@@ -54,9 +56,10 @@ p {
 
 }
 .registration-fb, .registration-lin {
-    width: 15px;
-    height: 15px;
-    padding-top: 7px;
+    width: 17px;
+    height: 17px;
+    
+
 
 }
 .or {
@@ -86,31 +89,33 @@ p {
 }
 .button-facebook {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 2px;
     background-color: #255A9B;
-    height: 30px;
-    width: 190px;
+    height: 40px;
+    width: 210px;
 
 }
 .registration1 {
-   font-size: 12px;
+   font-size: 14px;
    padding-left: 13px;
-   padding-top: 7px;
    color: #FFFFFF;
 }
 .button-linkedin {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 2px;
     background-color: #0076B6;
-    height: 30px;
-    width: 190px;
+    height: 40px;
+    width: 210px;
 }
 .registration2 {
-    font-size: 12px;
+    font-size: 14px;
     padding-left: 13px;
-    padding-top: 8px;
     color: #FFFFFF;
 }
 .registration-form {
@@ -118,8 +123,8 @@ p {
     gap: 30px;
 }
 .email, .phone {
-    width: 180px;
-    height: 23px;
+    width: 210px;
+    height: 32px;
     padding-top: 7px;
     margin-top: 30px;
     background-color:  #EFF6FF;
@@ -136,7 +141,8 @@ h2 {
     font-weight: 500;
     margin-top: 60px;
     margin-bottom:2px;
-    padding: right 30px;;
+    padding: right 30px;
+    font-size: 27px;
 
 
 }
@@ -144,16 +150,17 @@ h2 {
     color: #7b8a92;
     font-weight: 400;
     margin-top:2px;
+    font-size: 18px;
 
 }
 .investor-types {
     display: flex;
-    gap: 40px;
+    gap: 45px;
     margin-top: 50px;
 
 }
 .investor-types label {
-    font-size: 15px;
+    font-size: 17px;
     color: #2A4A5C;
     
 }
