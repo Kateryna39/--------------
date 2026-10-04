@@ -164,7 +164,39 @@ h2 {
     color: #2A4A5C;
     
 }
-.investor-types input {
-    border-color: #0076B6;
-    background-color: #EEEEEE;
+
+.investor-types {
+    display: flex;
+    gap: 25px;
+}
+.investor {
+    position: relative;
+}
+.tooltip {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 180px;
+    padding: 12px;
+    background-color: white;
+    color: #7b8a92;
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+}
+.investor:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+input[type="radio"] {
+    appearance: none;
+
+    width: 14px;
+    height: 14px;
+    border: 2px solid #7b8a92;
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type="radio"]:checked {
+    border: 3px solid #3f8be7;
 }
