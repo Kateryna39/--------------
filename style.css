@@ -121,15 +121,16 @@ p {
 .registration-form {
     display: flex;
     gap: 30px;
+    
 }
 .email, .phone {
     width: 210px;
     height: 32px;
     padding-top: 7px;
     margin-top: 30px;
-    background-color:  #EFF6FF;
-    border-color: #EEEEEE;
-    border: 1px;
+    background-color: #EFF6FF;
+    border: 1px solid #EEEEEE;
+    
 
 }
 h2 {
@@ -158,10 +159,10 @@ h2 {
 }
 .investor-types label {
     font-size: 17px;
+    font-weight: 300;
     color: #2A4A5C;
     
 }
-
 .investor-types {
     display: flex;
     gap: 25px;
@@ -189,9 +190,32 @@ input[type="radio"] {
     appearance: none;
     width: 14px;
     height: 14px;
-    border: 2px solid #abbac2;
+    border: 3px solid #abbac2;
     border-radius: 50%;
 }
 input[type="radio"]:checked {
     border: 3px solid #3f8be7;
+}
+.agreement {
+    display: block;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 80px;
+}
+.agreement input {
+    margin-right: 10px;
+}
+.agreement a {
+    color: #3698fb;
+}
+.create-account {
+    display: block;
+    width: 210px;
+    height: 40px;
+    margin-top: 65px;
+    border: none;
+    background-color: #3698fb;
+    color: white;
+    border-radius: 2px;
 }
