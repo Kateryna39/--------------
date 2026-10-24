@@ -1,271 +1,255 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-    background-color: #EFF6FF;
-    font-family:"barlow", sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-    margin: 0;
+  background-color: #eff6ff;
+  font-family: "barlow", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  margin: 0;
 }
 .page-container {
-    display: flex;
-    
+  display: flex;
 }
 .logo-container {
-    position: relative;
-     width: 50%;
-    flex-shrink: 0
-
+  position: relative;
+  width: 50%;
+  flex-shrink: 0;
 }
 .main-info {
-    padding-left: 70px;
-    padding-top: 50px;
-    padding-right: 39px;
-    padding-bottom: 50px;
-    width: 50%;
+  padding-left: 70px;
+  padding-top: 50px;
+  padding-right: 39px;
+  padding-bottom: 50px;
+  width: 50%;
 }
 .header-bg {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 .header-logo {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-    width: 120px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 120px;
 }
 .right-text {
-    color: #2A4A5C;
-    height: 40px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    padding-right: 30px;
-
+  color: #2a4a5c;
+  height: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-right: 30px;
 }
 p {
-    color: #7b8a92;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-size: 18px;
+  color: #7b8a92;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 18px;
 }
 .button-container {
-    display: flex;
-    gap: 30px;
-    
-    
-
+  display: flex;
+  gap: 30px;
 }
-.registration-fb, .registration-lin {
-    width: 17px;
-    height: 17px;
-
+.registration-fb,
+.registration-lin {
+  width: 17px;
+  height: 17px;
 }
 
 .or {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    font-weight: 500;
-    width: 210px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  width: 210px;
 }
 .or::before {
-    content: "";
-    background-color: #7b8a92;
-    flex: 1;
-    height: 1px;
-    margin-right: 10px;
-    margin-left: 40px;
+  content: "";
+  background-color: #7b8a92;
+  flex: 1;
+  height: 1px;
+  margin-right: 10px;
+  margin-left: 40px;
 }
 .or::after {
-    content: "";
-    background-color: #7b8a92;
-    flex: 1;
-    height: 1px;
-    margin-left: 10px;
+  content: "";
+  background-color: #7b8a92;
+  flex: 1;
+  height: 1px;
+  margin-left: 10px;
 }
 .button-facebook {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 2px;
-    background-color: #255A9B;
-    height: 40px;
-    width: 210px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  background-color: #255a9b;
+  height: 40px;
+  width: 210px;
+  cursor: pointer;
 }
 .button-facebook:hover {
-     opacity: 1;
-     visibility: visible;
-     transition: 0.3s;
-
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
 }
-.registration1 {
-   font-size: 14px;
-   padding-left: 13px;
-   color: #FFFFFF;
+  .registration1 {
+  font-size: 14px;
+  padding-left: 13px;
+  color: #ffffff;
 }
-
 .button-linkedin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 2px;
-    background-color: #0076B6;
-    height: 40px;
-    width: 210px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  background-color: #0076b6;
+  height: 40px;
+  width: 210px;
+  cursor: pointer;
 }
-.button-linkedin:hover{
-    opacity: 1;
-    visibility: visible; 
-    transition: 0.3s;
-
-}  
+.button-linkedin:hover {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
+}
 .registration2 {
-    font-size: 14px;
-    padding-left: 13px;
-    color: #FFFFFF;
+  font-size: 14px;
+  padding-left: 13px;
+  color: #ffffff;
 }
 .inputs-row {
-    display: flex;
-    gap: 30px;
-    margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
 }
 .input-box {
-    box-sizing: border-box; 
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    width: 210px;
-    padding: 8px 12px;
-    background-color: #FFFFFF;
-    border: 1px solid #E4EAF0;
-    border-radius: 2px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 210px;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  border: 1px solid #e4eaf0;
+  border-radius: 2px;
 }
 .input-box:focus-within {
-    border-color: #C9DDF2;
-    box-shadow: inset 3px 0 0 #3698FB;
+  border-color: #c9ddf2;
+  box-shadow: inset 3px 0 0 #3698fb;
 }
 
 .input-label {
-    font-size: 12px;
-    font-weight: 400;
-    color: #7B8A92;
+  font-size: 12px;
+  font-weight: 400;
+  color: #7b8a92;
 }
 
 .input-field {
-    width: 100%;
-    padding: 0;
-    border: none;
-    outline: none; 
-    background: transparent;
-    font-family: inherit; 
-    font-size: 16px;
-    color: #2A4A5C;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 16px;
+  color: #2a4a5c;
 }
 
 .input-field::placeholder {
-    color: #ABBAC2;
+  color: #abbac2;
 }
 h2 {
-    color: #2A4A5C;
-    height: 40px;
-    font-weight: 500;
-    margin-top: 60px;
-    margin-bottom:2px;
-    padding-right: 30px;
-    font-size: 27px;
-
-
+  color: #2a4a5c;
+  height: 40px;
+  font-weight: 500;
+  margin-top: 60px;
+  margin-bottom: 2px;
+  padding-right: 30px;
+  font-size: 27px;
 }
 .choice {
-    color: #7b8a92;
-    font-weight: 400;
-    margin-top:2px;
-    font-size: 18px;
-
+  color: #7b8a92;
+  font-weight: 400;
+  margin-top: 2px;
+  font-size: 18px;
 }
 .investor-types {
-    display: flex;
-    margin-top: 50px;
-
+  display: flex;
+  margin-top: 50px;
 }
 .investor-types label {
-    font-size: 17px;
-    font-weight: 300;
-    color: #2A4A5C;
-    
+  font-size: 17px;
+  font-weight: 300;
+  color: #2a4a5c;
 }
 .investor-types {
-    display: flex;
-    gap: 45px;
+  display: flex;
+  gap: 45px;
 }
 .investor {
-    position: relative;
+  position: relative;
 }
 .tooltip {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 180px;
-    padding: 12px;
-    background-color: white;
-    color: #7b8a92;
-    font-size: 12px;
-    opacity: 0;
-    visibility: hidden;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 180px;
+  padding: 12px;
+  background-color: white;
+  color: #7b8a92;
+  font-size: 12px;
+  opacity: 0;
+  visibility: hidden;
 }
 .investor:hover .tooltip {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 input[type="radio"] {
-    appearance: none;
-    width: 14px;
-    height: 14px;
-    border: 3px solid #abbac2;
-    border-radius: 50%;
-    cursor: pointer;
-    
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 3px solid #abbac2;
+  border-radius: 50%;
+  cursor: pointer;
 }
 input[type="radio"]:checked {
-    border: 3px solid #3f8be7;
+  border: 3px solid #3f8be7;
 }
 .agreement {
-    display: block;
-    font-family: "Barlow", sans-serif;
-    font-size: 14px;
-    color: #999999;
-    margin-top: 80px;
-    
+  display: block;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  color: #999999;
+  margin-top: 80px;
 }
 .agreement input {
-    margin-right: 10px;
-    cursor: pointer;
+  margin-right: 10px;
+  cursor: pointer;
 }
 .agreement a {
-    color: #3698fb;
+  color: #3698fb;
 }
 .create-account {
-    display: block;
-    width: 210px;
-    height: 40px;
-    margin-top: 65px;
-    border: none;
-    background-color: #3698fb;
-    color: white;
-    border-radius: 2px;
-    cursor: pointer;
+  display: block;
+  width: 210px;
+  height: 40px;
+  margin-top: 65px;
+  border: none;
+  background-color: #3698fb;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
 }
 .create-account:hover {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
-button, input {
-font: inherit;
+button,
+input {
+  font: inherit;
 }
