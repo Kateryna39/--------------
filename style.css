@@ -192,7 +192,6 @@ h2 {
 }
 .investor-types {
     display: flex;
-    gap: 45px;
     margin-top: 50px;
 
 }
@@ -204,7 +203,7 @@ h2 {
 }
 .investor-types {
     display: flex;
-    gap: 25px;
+    gap: 45px;
 }
 .investor {
     position: relative;
