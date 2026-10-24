@@ -27,16 +27,24 @@
         </div>
        <div class="or">OR</div>
   <form class="registration-form">
-    <input class="email" type="email" placeholder="Email">
-    <input class="phone" type="phone" placeholder="Phone">
-  </form>
+    <div class="inputs-row">
+    <div class="input-box">
+        <label class="input-label" for="email">Email</label>
+        <input class="input-field" type="email" id="email" name="email" placeholder="Enter your email">
+    </div>
+
+    <div class="input-box">
+        <label class="input-label" for="phone">Phone</label>
+        <input class="input-field" type="tel" id="phone" name="phone" placeholder="Enter your number">
+    </div>
+</div>
   <div class="type">
   <h2>What type of investor are you?</h2>
-  <div class="choise">Select the type of investor you are below</div>
+  <div class="choice">Select the type of investor you are below</div>
   <div class="investor-types">
   <div class="investor">
       <label>
-        <input type="radio" name="investor">Individual
+        <input type="radio" name="investor" value="individual">Individual
       </label>
    <div class="tooltip">I am a natural person investing on my own behalf as a sole owner,
     joint tenant, or tenant in common.
@@ -44,7 +52,7 @@
     </div>
     <div class="investor">
       <label>
-            <input type="radio" name="investor"> Business
+            <input type="radio" name="investor" value="individual"> Business
         </label>
          <div class="tooltip"> I am a natural person investing on my own behalf as a sole owner,
             joint tenant, or tenant in common.
@@ -52,7 +60,7 @@
     </div>
       <div class="investor">
         <label>
-            <input type="radio" name="investor"> IRA
+            <input type="radio" name="investor" value="individual"> IRA
         </label>
         <div class="tooltip"> I am a natural person investing on my own behalf as a sole owner,
             joint tenant, or tenant in common.
@@ -60,7 +68,7 @@
     </div>
     <div class="investor">
         <label>
-            <input type="radio" name="investor">Trust
+            <input type="radio" name="investor" value="individual">Trust
         </label>
        <div class="tooltip">  I am a natural person investing on my own behalf as a sole owner,
             joint tenant, or tenant in common.
@@ -76,6 +84,7 @@
     Create Account
     </button>
   </div>
+  </form>
 </div>
   </div>
     

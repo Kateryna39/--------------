@@ -5,6 +5,7 @@ body {
     font-family:"barlow", sans-serif;
     font-weight: 100;
     font-size: 16px;
+    margin: 0;
 }
 .page-container {
     display: flex;
@@ -38,7 +39,7 @@ body {
     height: 40px;
     font-weight: 500;
     margin-bottom: 10px;
-    padding: right 30px;;
+    padding-right: 30px;
 
 }
 p {
@@ -58,24 +59,22 @@ p {
 .registration-fb, .registration-lin {
     width: 17px;
     height: 17px;
-    
-
 
 }
+
 .or {
     display: flex; 
     justify-content: center;
     align-items: center;
     font-size: 12px;
     font-weight: 500;
-    margin-top: 30px;
-    padding-right: 95px;
-    
+    width: 210px;
+
 }
 .or::before {
     content: "";
     background-color: #7b8a92;
-    width: 90px;
+    flex: 1;
     height: 1px;
     margin-right: 10px;
     margin-left: 40px;
@@ -83,7 +82,7 @@ p {
 .or::after {
     content: "";
     background-color: #7b8a92;
-    width: 90px;
+    flex: 1;
     height: 1px;
     margin-left: 10px;
 }
@@ -96,6 +95,12 @@ p {
     background-color: #255A9B;
     height: 40px;
     width: 210px;
+    cursor: pointer;
+}
+.button-facebook:hover {
+     opacity: 1;
+     visibility: visible;
+     transition: 0.3s;
 
 }
 .registration1 {
@@ -103,6 +108,7 @@ p {
    padding-left: 13px;
    color: #FFFFFF;
 }
+
 .button-linkedin {
     display: flex;
     justify-content: center;
@@ -112,26 +118,59 @@ p {
     background-color: #0076B6;
     height: 40px;
     width: 210px;
+    cursor: pointer;
 }
+.button-linkedin:hover{
+    opacity: 1;
+    visibility: visible; 
+    transition: 0.3s;
+
+}  
 .registration2 {
     font-size: 14px;
     padding-left: 13px;
     color: #FFFFFF;
 }
-.registration-form {
+.inputs-row {
     display: flex;
     gap: 30px;
-    
-}
-.email, .phone {
-    width: 210px;
-    height: 32px;
-    padding-top: 7px;
     margin-top: 30px;
-    background-color: #EFF6FF;
-    border: 1px solid #EEEEEE;
-    
+}
+.input-box {
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 210px;
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #E4EAF0;
+    border-radius: 2px;
+}
+.input-box:focus-within {
+    border-color: #C9DDF2;
+    box-shadow: inset 3px 0 0 #3698FB;
+}
 
+.input-label {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7B8A92;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none; 
+    background: transparent;
+    font-family: inherit; 
+    font-size: 16px;
+    color: #2A4A5C;
+}
+
+.input-field::placeholder {
+    color: #ABBAC2;
 }
 h2 {
     color: #2A4A5C;
@@ -139,12 +178,12 @@ h2 {
     font-weight: 500;
     margin-top: 60px;
     margin-bottom:2px;
-    padding: right 30px;
+    padding-right: 30px;
     font-size: 27px;
 
 
 }
-.choise {
+.choice {
     color: #7b8a92;
     font-weight: 400;
     margin-top:2px;
@@ -192,6 +231,8 @@ input[type="radio"] {
     height: 14px;
     border: 3px solid #abbac2;
     border-radius: 50%;
+    cursor: pointer;
+    
 }
 input[type="radio"]:checked {
     border: 3px solid #3f8be7;
@@ -202,9 +243,11 @@ input[type="radio"]:checked {
     font-size: 14px;
     color: #999999;
     margin-top: 80px;
+    
 }
 .agreement input {
     margin-right: 10px;
+    cursor: pointer;
 }
 .agreement a {
     color: #3698fb;
@@ -218,4 +261,12 @@ input[type="radio"]:checked {
     background-color: #3698fb;
     color: white;
     border-radius: 2px;
+    cursor: pointer;
+}
+.create-account:hover {
+    opacity: 1;
+    visibility: visible;
+}
+button, input {
+font: inherit;
 }
